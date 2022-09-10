@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/hinhnen">
+
+    <CheckBox
+        android:id="@+id/checkboxThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="38dp"
+ />
+
+    <CheckBox
+        android:id="@+id/checkboxTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/checkboxThree"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="-5dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/checkboxTwo"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="-5dp"/>
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:id="@+id/seekbarThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/checkboxThree"
+        android:thumb="@drawable/rua"
+        android:layout_marginBottom="38dp"/>
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:id="@+id/seekbarTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seekbarThree"
+        android:layout_toRightOf="@id/checkboxTwo"
+        android:thumb="@drawable/rong"
+        android:layout_marginBottom="-5dp"/>
+
+    <SeekBar
+        android:id="@+id/seekbarOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seekbarTwo"
+        android:layout_marginBottom="-5dp"
+        android:layout_toRightOf="@id/checkboxOne"
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/pikachu" />
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/textviewDiemSo"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:text="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textviewHoTen"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:text="Name: Nguyễn Hữu Hoàng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/buttonPlay"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:src="@drawable/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/textviewPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:textSize="25dp"
+        android:layout_below="@id/buttonPlay"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
