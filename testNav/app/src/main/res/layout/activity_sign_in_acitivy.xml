@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="565px"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="565px"
+            android:src="@drawable/background" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:textSize="70dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textColor="#053d87"
+
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editTextUser"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Số điện thoại hoặc email"
+            android:textSize="20dp"
+            android:text="admin"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="sans-serif-medium" />
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Mật khẩu"
+            android:textSize="20dp"
+            android:text="admin"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"/>
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="12dp"
+            android:background="#0870fa"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quên mật khẩu?"
+            android:textColor="#053d87"
+            android:layout_gravity="center"
+            android:textSize="12dp"
+            android:fontFamily="sans-serif-medium"/>
+        />
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="HOẶC"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="sans-serif-medium"/>
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Tạo tài khoản Hoangbook mới"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#079e2a"
+            android:textSize="12dp"
+            android:fontFamily="sans-serif-medium"
+            />
+    </LinearLayout>
+
+</LinearLayout>

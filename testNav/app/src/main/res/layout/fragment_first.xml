@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avatar"
+            android:layout_marginBottom="87dp" />
+        <ImageView
+            android:id="@+id/ImageViewAvt"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/camera32"
+            android:layout_toRightOf="@+id/ImageViewAvt"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Hữu Hoàng"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/buttonTrangThai"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Đặt trạng thái"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttontrangthai"
+        android:layout_gravity="center"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/buttonChinhSua"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonchinhsua"
+            android:gravity="center"
+            android:text="Chỉnh sửa trang cá nhân"
+            android:textColor="#000000" />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:src="@drawable/cuoi"
+            android:layout_toRightOf="@id/buttonChinhSua"
+            android:background="@drawable/buttonchinhsua"
+            android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageViewOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/graduation" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageViewOne"
+
+            android:text="Đã học tai trường Sư Phạm Kỹ Thuật,
+Đại học Đà Nẵng" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/imageViewTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/book"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSV: 2050531200146"
+            android:layout_toRightOf="@+id/imageViewTwo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imageViewThree"
+            android:text="SDT: 0799476661"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GMAIL: hoanghuuu789@gmail.com"
+            android:layout_toRightOf="@+id/imageViewFour"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Chỉnh sửa chi tiết công khai"
+        android:textColor="#0870fa"
+        android:background="@drawable/buttonchinhsuachitiet"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Đăng kí"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#0870fa"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên truy cập"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu "
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <CheckBox
+            android:id="@+id/checkboxOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/checkboxOne"
+            android:text="Bạn đồng ý với điều khoản dịch vụ và chính sách bảo mật"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký Ngay"
+        android:layout_gravity="center"
+        android:background="#0870fa"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:layout_gravity="center"
+        android:background="#90ffffff"
+        android:textColor="#0870fa"/>
+</LinearLayout>
