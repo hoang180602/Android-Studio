@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "483715089127",
+    "project_id": "ktck-app",
+    "storage_bucket": "ktck-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483715089127:android:48290229f1ebc5b287d842",
+        "android_client_info": {
+          "package_name": "com.example.nguyenhuuhoang_2050531200146"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483715089127-o4cihtdteai25gaisgd47380il5po4sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDea2SL3s5AHwK9AfcNSkVHGBtgESqWJNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483715089127-o4cihtdteai25gaisgd47380il5po4sv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

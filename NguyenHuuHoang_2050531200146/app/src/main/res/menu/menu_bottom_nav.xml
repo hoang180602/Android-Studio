@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_Profile"
+        android:icon="@drawable/person24"
+        android:title="@string/action_Profile" />
+    <item
+        android:id="@+id/action_List"
+        android:icon="@drawable/add24"
+        android:title="Trò chơi" />
+
+
+</menu>
